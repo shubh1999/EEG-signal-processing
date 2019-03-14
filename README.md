@@ -1,7 +1,7 @@
 # EEG-signal-processing
 # Signal Processing Of EEG Signals Using Machine Learning
 
-_The aim of this project is to collect the raw electrical signals from a human brain using a neuro headset and then process these signals using machine learning so as to recognise the activity performed by the user._
+_The aim of this project is to collect the raw electrical signals from a human brain using a neuro headset and then process these signals using machine learning so as to recognise the activity performed by the user and then send the data to the bot to make it respond accordingly._
 
 ### Applications:
 
@@ -43,5 +43,6 @@ Actually the data you collected is written in a csv file in the directory where 
 Moreover there is another line of code wher you need to change - `"/media/arpit/New Volume/3.Projects/ARIES_EEG_Project/Raw_Data/Total_Normalised_data_Collection/Predict_Concat_Final.csv"`. Here also instead of `"/media/joseph/New Volume/3.Projects/ARIES_EEG_Project/Raw_Data/Total_Normalised_data_Collection"` , put the address of the directory where you have run the script "Final_+project.py".
 
 6. My training dataset is for only Four actions - clapping , blinking ,  head nodding and leg tapping. So after running the script ,perform one of the four actions and after some time your action will be predicted.
+7.After this you may start the server and send the predicted value to the bot.
 
 
