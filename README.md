@@ -34,7 +34,7 @@ You need to go to your bluetooth settings and then find out the port by which yo
 
 5. To implement my model, you may use "Final_+project.py" script present in my repository under Py_scripts folder.In this script you have to make a change in the following line of code-
 ``` bash
-input_csv = pd.read_csv("/media/arpit/New Volume/3.Projects/EEG_Project/Raw_Data/Total_Normalised_data_Collection/Predict_Final.csv")
+input_csv = pd.read_csv("/media/shubham/New Volume/3.Projects/EEG_Project/Raw_Data/Total_Normalised_data_Collection/Predict_Final.csv")
 ```
 Actually the data you collected is written in a csv file in the directory where you have run the above script "Final_+project.py" in a file named **Predict_Final.csv** , so instead of  ` "/media/arpit/New Volume/3.Projects/EEG_Project/Raw_Data/Total_Normalised_data_Collection" ` in above line of code you have to put the address of the directory in which you have run the script "Final_+project.py".
 
